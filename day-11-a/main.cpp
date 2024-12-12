@@ -41,11 +41,7 @@ int main(void)
         *it = stoi(str.substr(len/2, len/2));
       }
     }
-    for(auto& stone : stones)
-    {
-      cout << stone << " ";
-    }
-    cout << endl;
+    cout << i << " " << stones.size() << endl;
   }
   result = stones.size();
 
